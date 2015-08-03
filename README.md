@@ -5,8 +5,12 @@ We will use this model to perfrom parameter scanning and visual outputs
 
 HI
 
-Hello DAn
+Hello Dan
 
 You're so good at typing
 
+<<<<<<< HEAD
 HI TODD
+=======
+Rude Dan, rude!
+>>>>>>> origin/master
