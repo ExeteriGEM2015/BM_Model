@@ -9,8 +9,4 @@ Hello Dan
 
 You're so good at typing
 
-<<<<<<< HEAD
-HI TODD
-=======
-Rude Dan, rude!
->>>>>>> origin/master
+Try and resolve this
