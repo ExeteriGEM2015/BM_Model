@@ -1,4 +1,4 @@
-function BM_01_08_splitfix(t,r,N)
+function BM_03_08_extralinefix(t,r,N)
 
     rng('shuffle');
 
