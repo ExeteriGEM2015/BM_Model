@@ -1,6 +1,4 @@
-function BM_02_08_missinglinefix(t,r,N)
-
-    %Hello Dan testing github
+function BM_01_08_splitfix(t,r,N)
 
     rng('shuffle');
 
@@ -262,6 +260,13 @@ function BM_02_08_missinglinefix(t,r,N)
                 startposition(1,rna)=coords(1,t+r+q);
                 startposition(2,rna)=coords(2,t+r+q);
                 startposition(3,rna)=coords(3,t+r+q);
+                coords(1,rna)=coords(1,t+r+q);
+                coords(2,rna)=coords(2,t+r+q);
+                coords(3,rna)=coords(3,t+r+q);
+                coords(1,toehold)=coords(1,t+r+q);
+                coords(2,toehold)=coords(2,t+r+q);
+                coords(3,toehold)=coords(3,t+r+q);
+                
                 
                 points{j,t+r+(2*q)}=[0,toehold,rna];
                 check(q,1)=0;
